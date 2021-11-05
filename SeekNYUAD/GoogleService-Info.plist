@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>738690392622-5osc813b2kp5i5aul4rb7rd04n6nkqoj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.738690392622-5osc813b2kp5i5aul4rb7rd04n6nkqoj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAqrMis0Uq5K0UGz-J_wgTmsGpBeGPVtKo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>738690392622</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.omarrayyan.SeekNYUAD</string>
+	<key>PROJECT_ID</key>
+	<string>seek-nyuad</string>
+	<key>STORAGE_BUCKET</key>
+	<string>seek-nyuad.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:738690392622:ios:f1b5cb8bdfdbd241ef35bf</string>
+</dict>
+</plist>

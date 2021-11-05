@@ -1,0 +1,6 @@
+framework module Pods_SeekNYUAD {
+  umbrella header "Pods-SeekNYUAD-umbrella.h"
+
+  export *
+  module * { export * }
+}

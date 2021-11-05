@@ -6,14 +6,23 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class SeekViewController: UIViewController {
 
     @IBOutlet weak var academicView: UIView!
     @IBOutlet weak var mentalView: UIView!
     
+    override func viewDidAppear(_ animated: Bool) {
+        if (Auth.auth().currentUser == nil){
+            performSegue(withIdentifier: "toLogin", sender: self)
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+
         self.navigationController?.navigationBar.titleTextAttributes =
                 [NSAttributedString.Key.foregroundColor: UIColor.black,
                  NSAttributedString.Key.font: UIFont(name: "Futura Medium", size: 21) ?? UIFont(name: "Futura-Medium", size: 21) ?? UIFont.systemFont(ofSize: 21, weight: .medium)]
