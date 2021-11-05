@@ -731,28 +731,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Socials" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dgv-RQ-QAt">
-                                <rect key="frame" x="20" y="108" width="374" height="43"/>
+                                <rect key="frame" x="20" y="88" width="374" height="43"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="33"/>
                                 <color key="textColor" name="NYU 1"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="IgA-Eo-mJV">
-                                <rect key="frame" x="20" y="171" width="374" height="202"/>
+                                <rect key="frame" x="20" y="151" width="374" height="377"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ixx-GY-dcA">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="81"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="99"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="izM-aH-aEu">
-                                                <rect key="frame" x="0.0" y="36" width="374" height="40"/>
+                                                <rect key="frame" x="0.0" y="54" width="374" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="ICE-74-C9O"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instagram" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="miw-AD-wze">
-                                                <rect key="frame" x="0.0" y="0.0" width="374" height="26"/>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="44"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -769,19 +769,19 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="00c-gC-Uq8">
-                                        <rect key="frame" x="0.0" y="121" width="374" height="81"/>
+                                        <rect key="frame" x="0.0" y="139" width="374" height="99"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone Number" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZMI-kG-pii">
-                                                <rect key="frame" x="0.0" y="36" width="374" height="40"/>
+                                                <rect key="frame" x="0.0" y="54" width="374" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="0Zr-Kx-xj3"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="yes" keyboardType="phonePad"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Whatsapp (Include Country Code)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nyX-FH-T5b">
-                                                <rect key="frame" x="0.0" y="0.0" width="374" height="26"/>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="44"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -795,6 +795,133 @@
                                             <constraint firstItem="nyX-FH-T5b" firstAttribute="top" secondItem="00c-gC-Uq8" secondAttribute="top" id="r45-MO-ZQL"/>
                                             <constraint firstAttribute="trailing" secondItem="nyX-FH-T5b" secondAttribute="trailing" id="vXU-Tt-Afk"/>
                                             <constraint firstItem="nyX-FH-T5b" firstAttribute="leading" secondItem="00c-gC-Uq8" secondAttribute="leading" id="vx1-bb-eha"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VUl-1b-cgZ">
+                                        <rect key="frame" x="0.0" y="278" width="374" height="99"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Class of" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="95r-ZX-7Hb">
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="21"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="7Xt-3L-nHD">
+                                                <rect key="frame" x="0.0" y="26" width="374" height="73"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="5ga-iR-l3C">
+                                                        <rect key="frame" x="0.0" y="0.0" width="374" height="36.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4U-In-dxL">
+                                                                <rect key="frame" x="0.0" y="0.0" width="124.5" height="36.5"/>
+                                                                <color key="tintColor" name="NYU 2"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain">
+                                                                    <attributedString key="attributedTitle">
+                                                                        <fragment content="2021">
+                                                                            <attributes>
+                                                                                <font key="NSFont" size="17" name="Futura-Medium"/>
+                                                                            </attributes>
+                                                                        </fragment>
+                                                                    </attributedString>
+                                                                </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="clicked2021:" destination="Wdq-RH-7iz" eventType="touchUpInside" id="JMa-6N-wkb"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PtE-d7-ZmK">
+                                                                <rect key="frame" x="124.5" y="0.0" width="125" height="36.5"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain">
+                                                                    <attributedString key="attributedTitle">
+                                                                        <fragment content="2022">
+                                                                            <attributes>
+                                                                                <font key="NSFont" size="17" name="Futura-Medium"/>
+                                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                            </attributes>
+                                                                        </fragment>
+                                                                    </attributedString>
+                                                                </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="clicked2022:" destination="Wdq-RH-7iz" eventType="touchUpInside" id="s6E-3U-BeO"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77s-iG-IaD">
+                                                                <rect key="frame" x="249.5" y="0.0" width="124.5" height="36.5"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain">
+                                                                    <attributedString key="attributedTitle">
+                                                                        <fragment content="2023">
+                                                                            <attributes>
+                                                                                <font key="NSFont" size="17" name="Futura-Medium"/>
+                                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                            </attributes>
+                                                                        </fragment>
+                                                                    </attributedString>
+                                                                </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="clicked2023:" destination="Wdq-RH-7iz" eventType="touchUpInside" id="ybN-b1-yI4"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="etA-jm-sC8">
+                                                        <rect key="frame" x="0.0" y="36.5" width="374" height="36.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ap9-TX-Y5u">
+                                                                <rect key="frame" x="0.0" y="0.0" width="187" height="36.5"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain">
+                                                                    <attributedString key="attributedTitle">
+                                                                        <fragment content="2024">
+                                                                            <attributes>
+                                                                                <font key="NSFont" size="17" name="Futura-Medium"/>
+                                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                            </attributes>
+                                                                        </fragment>
+                                                                    </attributedString>
+                                                                </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="clicked2024:" destination="Wdq-RH-7iz" eventType="touchUpInside" id="ZZh-2c-nbY"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Fi-eN-yBK">
+                                                                <rect key="frame" x="187" y="0.0" width="187" height="36.5"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain">
+                                                                    <attributedString key="attributedTitle">
+                                                                        <fragment content="2025">
+                                                                            <attributes>
+                                                                                <font key="NSFont" size="17" name="Futura-Medium"/>
+                                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                            </attributes>
+                                                                        </fragment>
+                                                                    </attributedString>
+                                                                </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="clicked2025:" destination="Wdq-RH-7iz" eventType="touchUpInside" id="iDf-LK-7Nc"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="etA-jm-sC8" secondAttribute="trailing" id="NF9-a8-sCO"/>
+                                                    <constraint firstItem="etA-jm-sC8" firstAttribute="leading" secondItem="7Xt-3L-nHD" secondAttribute="leading" id="UoZ-6Z-Q8k"/>
+                                                    <constraint firstAttribute="trailing" secondItem="5ga-iR-l3C" secondAttribute="trailing" id="bnw-gg-td5"/>
+                                                    <constraint firstItem="5ga-iR-l3C" firstAttribute="leading" secondItem="7Xt-3L-nHD" secondAttribute="leading" id="jio-n4-Pfn"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="7Xt-3L-nHD" firstAttribute="leading" secondItem="VUl-1b-cgZ" secondAttribute="leading" id="5Oc-ag-EHF"/>
+                                            <constraint firstItem="95r-ZX-7Hb" firstAttribute="leading" secondItem="VUl-1b-cgZ" secondAttribute="leading" id="Mkq-ar-W8e"/>
+                                            <constraint firstAttribute="bottom" secondItem="7Xt-3L-nHD" secondAttribute="bottom" id="QiH-Ho-dqP"/>
+                                            <constraint firstItem="7Xt-3L-nHD" firstAttribute="top" secondItem="95r-ZX-7Hb" secondAttribute="bottom" constant="5" id="aPH-O9-pc9"/>
+                                            <constraint firstAttribute="trailing" secondItem="95r-ZX-7Hb" secondAttribute="trailing" id="aVc-00-y7e"/>
+                                            <constraint firstItem="95r-ZX-7Hb" firstAttribute="top" secondItem="VUl-1b-cgZ" secondAttribute="top" id="aYW-gM-yQj"/>
+                                            <constraint firstAttribute="trailing" secondItem="7Xt-3L-nHD" secondAttribute="trailing" id="x0b-5Q-FBu"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -821,23 +948,40 @@
                                     <action selector="clickedSave:" destination="Wdq-RH-7iz" eventType="touchUpInside" id="hUQ-tY-t0V"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="19N-ht-Glf">
-                                <rect key="frame" x="20" y="721.5" width="374" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="19N-ht-Glf">
+                                <rect key="frame" x="20" y="722.5" width="374" height="19.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                <color key="textColor" red="0.35983009710000002" green="0.058666741199999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fry-5l-8fz" customClass="MaterialActivityIndicatorView" customModule="MaterialActivityIndicator">
+                                <rect key="frame" x="192" y="727" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="2tH-SH-Xhs"/>
+                                    <constraint firstAttribute="width" constant="30" id="Bn5-TK-ZSk"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                        <color key="value" name="NYU 2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pfQ-ve-EJJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="IgA-Eo-mJV" firstAttribute="top" secondItem="Dgv-RQ-QAt" secondAttribute="bottom" constant="20" id="1ux-Vv-6h4"/>
+                            <constraint firstItem="Ubv-Vq-hH5" firstAttribute="top" secondItem="fry-5l-8fz" secondAttribute="bottom" constant="5" id="3LN-hq-4BW"/>
                             <constraint firstItem="Ubv-Vq-hH5" firstAttribute="top" secondItem="19N-ht-Glf" secondAttribute="bottom" constant="20" id="6R1-z2-OYm"/>
                             <constraint firstItem="pfQ-ve-EJJ" firstAttribute="trailing" secondItem="Dgv-RQ-QAt" secondAttribute="trailing" constant="20" id="7dF-wo-YtI"/>
+                            <constraint firstItem="fry-5l-8fz" firstAttribute="centerX" secondItem="L6T-9z-1UX" secondAttribute="centerX" id="H2E-jt-77m"/>
                             <constraint firstItem="pfQ-ve-EJJ" firstAttribute="trailing" secondItem="IgA-Eo-mJV" secondAttribute="trailing" constant="20" id="Hs4-D4-pDE"/>
                             <constraint firstItem="pfQ-ve-EJJ" firstAttribute="trailing" secondItem="Ubv-Vq-hH5" secondAttribute="trailing" constant="20" id="Khk-j4-9Lt"/>
                             <constraint firstItem="IgA-Eo-mJV" firstAttribute="leading" secondItem="pfQ-ve-EJJ" secondAttribute="leading" constant="20" id="OsC-6C-vqk"/>
-                            <constraint firstItem="Dgv-RQ-QAt" firstAttribute="top" secondItem="pfQ-ve-EJJ" secondAttribute="top" constant="20" id="WpK-kG-bgZ"/>
+                            <constraint firstItem="Dgv-RQ-QAt" firstAttribute="top" secondItem="pfQ-ve-EJJ" secondAttribute="top" id="WpK-kG-bgZ"/>
                             <constraint firstItem="19N-ht-Glf" firstAttribute="leading" secondItem="pfQ-ve-EJJ" secondAttribute="leading" constant="20" id="ebH-tw-YQw"/>
                             <constraint firstItem="Dgv-RQ-QAt" firstAttribute="leading" secondItem="L6T-9z-1UX" secondAttribute="leading" constant="20" id="hSw-o0-0tK"/>
                             <constraint firstItem="pfQ-ve-EJJ" firstAttribute="trailing" secondItem="19N-ht-Glf" secondAttribute="trailing" constant="20" id="kM6-ze-yhk"/>
@@ -847,8 +991,15 @@
                     </view>
                     <navigationItem key="navigationItem" id="pbY-FL-jAI"/>
                     <connections>
+                        <outlet property="activityIndicator" destination="fry-5l-8fz" id="SBp-nH-40Y"/>
+                        <outlet property="classof2021" destination="t4U-In-dxL" id="zNn-XT-oYQ"/>
+                        <outlet property="classof2022" destination="PtE-d7-ZmK" id="LZ3-26-7nd"/>
+                        <outlet property="classof2023" destination="77s-iG-IaD" id="vey-ft-4Cg"/>
+                        <outlet property="classof2024" destination="ap9-TX-Y5u" id="Wdu-8O-R1Y"/>
+                        <outlet property="classof2025" destination="5Fi-eN-yBK" id="u7c-EI-jBQ"/>
                         <outlet property="instagramUsername" destination="izM-aH-aEu" id="HAl-zb-Lqb"/>
                         <outlet property="phoneNumber" destination="ZMI-kG-pii" id="cIA-cv-BM1"/>
+                        <outlet property="saveButton" destination="Ubv-Vq-hH5" id="9K1-xw-0jl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F0L-Xw-TCr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -904,13 +1055,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mathematics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aQ6-a2-RQR">
-                                <rect key="frame" x="20" y="88" width="374" height="43"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="33"/>
+                                <rect key="frame" x="20" y="88" width="374" height="44.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="34"/>
                                 <color key="textColor" name="NYU 1"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="wow" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I9b-Ok-VtY">
-                                <rect key="frame" x="20" y="151" width="374" height="30"/>
+                                <rect key="frame" x="20" y="152.5" width="374" height="30"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="23"/>
                                 <color key="textColor" name="NYU 2"/>
                                 <nil key="highlightedColor"/>
@@ -921,6 +1072,21 @@
                                 <color key="textColor" name="NYU 2"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ed4-Vo-0nx">
+                                <rect key="frame" x="20" y="202.5" width="374" height="38"/>
+                                <color key="backgroundColor" name="NYU 2"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Offer Support">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZYv-qN-wdq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -929,8 +1095,11 @@
                             <constraint firstItem="aQ6-a2-RQR" firstAttribute="top" secondItem="ZYv-qN-wdq" secondAttribute="top" id="9tE-g6-4BF"/>
                             <constraint firstItem="ZYv-qN-wdq" firstAttribute="trailing" secondItem="FbI-wO-luX" secondAttribute="trailing" constant="10" id="A7f-D1-TRp"/>
                             <constraint firstItem="I9b-Ok-VtY" firstAttribute="leading" secondItem="ZYv-qN-wdq" secondAttribute="leading" constant="20" id="Frs-Cz-dEp"/>
+                            <constraint firstItem="ed4-Vo-0nx" firstAttribute="top" secondItem="I9b-Ok-VtY" secondAttribute="bottom" constant="20" id="Kli-VS-WFP"/>
                             <constraint firstItem="aQ6-a2-RQR" firstAttribute="leading" secondItem="ZYv-qN-wdq" secondAttribute="leading" constant="20" id="NvE-T3-SEZ"/>
                             <constraint firstAttribute="trailing" secondItem="I9b-Ok-VtY" secondAttribute="trailing" constant="20" id="R7m-qN-1ga"/>
+                            <constraint firstItem="ed4-Vo-0nx" firstAttribute="leading" secondItem="ZYv-qN-wdq" secondAttribute="leading" constant="20" id="Vaq-Yb-9Lq"/>
+                            <constraint firstItem="ZYv-qN-wdq" firstAttribute="trailing" secondItem="ed4-Vo-0nx" secondAttribute="trailing" constant="20" id="Vcs-X5-cSh"/>
                             <constraint firstItem="I9b-Ok-VtY" firstAttribute="top" secondItem="aQ6-a2-RQR" secondAttribute="bottom" constant="20" id="dtG-1Q-HEd"/>
                             <constraint firstItem="ZYv-qN-wdq" firstAttribute="bottom" secondItem="FbI-wO-luX" secondAttribute="bottom" constant="10" id="fEb-ek-QLs"/>
                         </constraints>
@@ -939,6 +1108,7 @@
                     <connections>
                         <outlet property="byWho" destination="FbI-wO-luX" id="olZ-af-8Ul"/>
                         <outlet property="details" destination="I9b-Ok-VtY" id="p0s-bV-nJN"/>
+                        <outlet property="offerSupportButton" destination="ed4-Vo-0nx" id="kWD-2X-nlK"/>
                         <outlet property="subjectsLabel" destination="aQ6-a2-RQR" id="4j8-dU-Pnt"/>
                     </connections>
                 </viewController>
@@ -1051,7 +1221,7 @@
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="BJa-p9-0Tk"/>
+        <segue reference="wEi-Yc-FhZ"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" name="NYU 1"/>
     <resources>

@@ -90,7 +90,7 @@ class CreateAccountViewController: UIViewController, UITextFieldDelegate {
     let db = Firestore.firestore()
     
     public func insertNewUser (email: String, netid: String, UID: String, name: String, completion: @escaping (Bool) -> Void) {
-        db.collection("Users").document(UID).setData(["netid": netid, "email": email, "uid": UID, "whatsapp": "non", "instagram": "non", "phonenumber": "non", "description": "non", "fullName": name]) { err in
+        db.collection("Users").document(UID).setData(["netid": netid, "email": email, "uid": UID, "whatsapp": "non", "instagram": "non", "phonenumber": "non", "description": "non", "fullName": name, "classof": "non"]) { err in
                 if let err = err {
                     print("Error writing document: \(err)")
                     completion(false)
