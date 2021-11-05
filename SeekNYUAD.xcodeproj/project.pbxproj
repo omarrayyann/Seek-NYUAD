@@ -14,6 +14,7 @@
 		4552653D273512A300698E98 /* SeekNYUAD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4552653B273512A300698E98 /* SeekNYUAD.xcdatamodeld */; };
 		4552653F273512A400698E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4552653E273512A400698E98 /* Assets.xcassets */; };
 		45526542273512A400698E98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45526540273512A400698E98 /* LaunchScreen.storyboard */; };
+		4552654A273519B200698E98 /* SeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45526549273519B200698E98 /* SeekViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4552653E273512A400698E98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45526541273512A400698E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45526543273512A400698E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45526549273519B200698E98 /* SeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				45526534273512A300698E98 /* SceneDelegate.swift */,
 				45526536273512A300698E98 /* ViewController.swift */,
 				45526538273512A300698E98 /* Main.storyboard */,
+				45526549273519B200698E98 /* SeekViewController.swift */,
 				4552653E273512A400698E98 /* Assets.xcassets */,
 				45526540273512A400698E98 /* LaunchScreen.storyboard */,
 				45526543273512A400698E98 /* Info.plist */,
@@ -143,6 +146,7 @@
 				45526537273512A300698E98 /* ViewController.swift in Sources */,
 				45526533273512A300698E98 /* AppDelegate.swift in Sources */,
 				45526535273512A300698E98 /* SceneDelegate.swift in Sources */,
+				4552654A273519B200698E98 /* SeekViewController.swift in Sources */,
 				4552653D273512A300698E98 /* SeekNYUAD.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

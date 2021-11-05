@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jep-3Z-UGN">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -119,7 +119,7 @@
                                     </textField>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Join seekNYUAD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9yl-O9-kE7">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Join Seek NYUAD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9yl-O9-kE7">
                                 <rect key="frame" x="20" y="86" width="374" height="57.5"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="44"/>
                                 <color key="textColor" name="Green"/>
@@ -184,25 +184,155 @@
             </objects>
             <point key="canvasLocation" x="911.59420289855075" y="61.607142857142854"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="qLg-09-wxV">
+        <!--Seek-->
+        <scene sceneID="Cla-Zb-Tqd">
             <objects>
-                <viewController id="zcP-Jj-PcC" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="NF1-om-z6k">
+                <viewController title="Seek" id="te9-cP-MDl" customClass="SeekViewController" customModule="SeekNYUAD" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Al-bh-cfL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="Y3P-tz-6OO"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="H0N-ws-Hkh">
+                                <rect key="frame" x="20" y="108" width="374" height="685"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="viA-zl-Wpn">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="332.5"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hzJ-1K-MpK">
+                                                <rect key="frame" x="5" y="5" width="364" height="322.5"/>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="hzJ-1K-MpK" secondAttribute="trailing" constant="5" id="I02-F5-4dP"/>
+                                            <constraint firstItem="hzJ-1K-MpK" firstAttribute="leading" secondItem="viA-zl-Wpn" secondAttribute="leading" constant="5" id="Qsw-3o-rEt"/>
+                                            <constraint firstItem="hzJ-1K-MpK" firstAttribute="top" secondItem="viA-zl-Wpn" secondAttribute="top" constant="5" id="eno-ZQ-rfR"/>
+                                            <constraint firstAttribute="bottom" secondItem="hzJ-1K-MpK" secondAttribute="bottom" constant="5" id="hQK-oM-wma"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IKZ-pq-lny">
+                                        <rect key="frame" x="0.0" y="352.5" width="374" height="332.5"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kPG-e4-Tfl">
+                                                <rect key="frame" x="5" y="5" width="364" height="322.5"/>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="kPG-e4-Tfl" secondAttribute="bottom" constant="5" id="Eu9-OK-4WN"/>
+                                            <constraint firstItem="kPG-e4-Tfl" firstAttribute="top" secondItem="IKZ-pq-lny" secondAttribute="top" constant="5" id="IbD-6U-3wk"/>
+                                            <constraint firstItem="kPG-e4-Tfl" firstAttribute="leading" secondItem="IKZ-pq-lny" secondAttribute="leading" constant="5" id="ecd-ye-tGm"/>
+                                            <constraint firstAttribute="trailing" secondItem="kPG-e4-Tfl" secondAttribute="trailing" constant="5" id="ldY-e5-tEg"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DtZ-RQ-KQm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="DtZ-RQ-KQm" firstAttribute="bottom" secondItem="H0N-ws-Hkh" secondAttribute="bottom" constant="20" id="2Af-cs-O5i"/>
+                            <constraint firstItem="DtZ-RQ-KQm" firstAttribute="trailing" secondItem="H0N-ws-Hkh" secondAttribute="trailing" constant="20" id="SeX-oI-0rj"/>
+                            <constraint firstItem="H0N-ws-Hkh" firstAttribute="leading" secondItem="DtZ-RQ-KQm" secondAttribute="leading" constant="20" id="n3A-tU-ZKT"/>
+                            <constraint firstItem="H0N-ws-Hkh" firstAttribute="top" secondItem="DtZ-RQ-KQm" secondAttribute="top" constant="20" id="rjs-Lr-PGB"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Seek" id="F55-aJ-Vn2"/>
+                    <connections>
+                        <outlet property="academicView" destination="hzJ-1K-MpK" id="E39-6b-5oP"/>
+                        <outlet property="mentalView" destination="kPG-e4-Tfl" id="UQS-0n-rMt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SVb-Ev-clC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2551" y="1481"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="o4R-ao-CNy">
+            <objects>
+                <viewController id="YhV-MK-rPl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nzN-kS-7kK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="HNG-EV-wTL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Jeu-kp-f1H"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uvJ-Bf-k7s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Ah-Tl-aud" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1041" y="744"/>
+            <point key="canvasLocation" x="2550.7246376811595" y="821.65178571428567"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="m42-Vn-1ga">
+            <objects>
+                <tabBarController id="jep-3Z-UGN" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="539-Yc-hQm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" name="NYU Violet"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="7VY-RS-bY1" kind="relationship" relationship="viewControllers" id="Zfh-6t-5i5"/>
+                        <segue destination="EwU-Hh-Vfv" kind="relationship" relationship="viewControllers" id="Pu8-T0-AqZ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ffr-PF-VrG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="1128"/>
+        </scene>
+        <!--Help-->
+        <scene sceneID="JtM-LL-QxW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7VY-RS-bY1" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Help" image="heart" catalog="system" selectedImage="heart.fill" id="FdB-Wh-oFR">
+                        <color key="badgeColor" name="NYU Violet"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="YLu-kj-eIf">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="YhV-MK-rPl" kind="relationship" relationship="rootViewController" id="WgR-eA-muP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VgR-7c-Y0o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1640.5797101449277" y="821.65178571428567"/>
+        </scene>
+        <!--Seek-->
+        <scene sceneID="8M1-fD-7GG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EwU-Hh-Vfv" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Seek" image="person.and.arrow.left.and.arrow.right" catalog="system" selectedImage="person.fill.and.arrow.left.and.arrow.right" id="UqL-Nf-hrw">
+                        <color key="badgeColor" name="NYU Violet"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tTl-cX-UIy">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="te9-cP-MDl" kind="relationship" relationship="rootViewController" id="ryu-kh-4CX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y8S-xP-4e9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1641" y="1481"/>
         </scene>
     </scenes>
     <resources>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="heart.fill" catalog="system" width="128" height="109"/>
+        <image name="person.and.arrow.left.and.arrow.right" catalog="system" width="128" height="89"/>
+        <image name="person.fill.and.arrow.left.and.arrow.right" catalog="system" width="128" height="87"/>
         <namedColor name="Green">
             <color red="0.12156862745098039" green="0.11372549019607843" blue="0.21176470588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="NYU Violet">
+            <color red="0.40784313725490196" green="0.12156862745098039" blue="0.59607843137254901" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
