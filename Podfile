@@ -18,5 +18,7 @@ pod 'Firebase/Messaging'
 pod 'TextFieldEffects'
 pod 'MaterialActivityIndicator'
 pod 'Kingfisher'
+pod 'BonsaiController'
+
 
 end

@@ -212,6 +212,7 @@ PODS:
     - abseil/base/base_internal
     - abseil/base/config
     - abseil/meta/type_traits
+  - BonsaiController (6.0.0)
   - BoringSSL-GRPC (0.0.7):
     - BoringSSL-GRPC/Implementation (= 0.0.7)
     - BoringSSL-GRPC/Interface (= 0.0.7)
@@ -363,6 +364,7 @@ PODS:
   - TextFieldEffects (1.6.0)
 
 DEPENDENCIES:
+  - BonsaiController
   - Firebase/Analytics
   - Firebase/Auth
   - Firebase/Database
@@ -377,6 +379,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - abseil
+    - BonsaiController
     - BoringSSL-GRPC
     - Firebase
     - FirebaseAnalytics
@@ -405,6 +408,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   abseil: 6c8eb7892aefa08d929b39f9bb108e5367e3228f
+  BonsaiController: 63410fc39bc5b3a9df5b329dbc848b6b27edf663
   BoringSSL-GRPC: 8edf627ee524575e2f8d19d56f068b448eea3879
   Firebase: fd5e4d2b756292c6e7ee6faac1eb320225d6e97e
   FirebaseAnalytics: 00b7f74571d346ee1ffb9bf0a2e6f2ffff222bcc
@@ -431,6 +435,6 @@ SPEC CHECKSUMS:
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
   TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
 
-PODFILE CHECKSUM: ae84b60c4f0c731862cd2ad7d76c59dd542e3205
+PODFILE CHECKSUM: ce5ff84670b32a5eef9c05a083d4d0748de3b14f
 
 COCOAPODS: 1.10.2

@@ -8,12 +8,14 @@
 import UIKit
 import FirebaseFirestore
 import FirebaseAuth
+import MaterialActivityIndicator
 
 protocol MyCustomCellDelegator {
     func callSegueFromCell(postInfo: Post)}
 
 class HelpViewController: UIViewController, UICollectionViewDataSource, MyCustomCellDelegator {
     
+    @IBOutlet weak var activityIndicator: MaterialActivityIndicatorView!
     
     var currentPostInfo = Post(postuid: "", useruid: "", date: 0.0, subject: "", details: "", netid: "")
     
@@ -68,7 +70,7 @@ class HelpViewController: UIViewController, UICollectionViewDataSource, MyCustom
     override func viewDidLoad() {
         super.viewDidLoad()
         loadPosts()
-        
+        activityIndicator.startAnimating()
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
 
         
@@ -118,6 +120,7 @@ class HelpViewController: UIViewController, UICollectionViewDataSource, MyCustom
             if let e = error {
                 print(e)
                 self.refreshControl.endRefreshing()
+                activityIndicator.stopAnimating()
             }
             else{
                 
@@ -142,6 +145,7 @@ class HelpViewController: UIViewController, UICollectionViewDataSource, MyCustom
                 
                 print(arrayPosts)
                 arrayPosts.reverse()
+                activityIndicator.stopAnimating()
                 feedCollectionView.reloadData()
                 self.refreshControl.endRefreshing()
 
