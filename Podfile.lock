@@ -358,6 +358,7 @@ PODS:
   - nanopb/decode (2.30907.0)
   - nanopb/encode (2.30907.0)
   - PromisesObjC (1.2.12)
+  - TextFieldEffects (1.6.0)
 
 DEPENDENCIES:
   - Firebase/Analytics
@@ -367,6 +368,7 @@ DEPENDENCIES:
   - Firebase/Messaging
   - Firebase/Storage
   - IQKeyboardManagerSwift
+  - TextFieldEffects
 
 SPEC REPOS:
   trunk:
@@ -393,6 +395,7 @@ SPEC REPOS:
     - leveldb-library
     - nanopb
     - PromisesObjC
+    - TextFieldEffects
 
 SPEC CHECKSUMS:
   abseil: 6c8eb7892aefa08d929b39f9bb108e5367e3228f
@@ -418,7 +421,8 @@ SPEC CHECKSUMS:
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   nanopb: 59221d7f958fb711001e6a449489542d92ae113e
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
 
-PODFILE CHECKSUM: 12b201a1329337fb70980a00caa0f66d977ea81a
+PODFILE CHECKSUM: b1136d2bcb795ea4ad173b2b8aa514af2df9d919
 
 COCOAPODS: 1.10.2

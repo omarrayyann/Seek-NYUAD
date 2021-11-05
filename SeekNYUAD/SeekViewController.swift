@@ -28,10 +28,10 @@ class SeekViewController: UIViewController {
                  NSAttributedString.Key.font: UIFont(name: "Futura Medium", size: 21) ?? UIFont(name: "Futura-Medium", size: 21) ?? UIFont.systemFont(ofSize: 21, weight: .medium)]
 
 
-        academicView.layer.cornerRadius = academicView.frame.height / 15
+        academicView.layer.cornerRadius = academicView.frame.height / 20
         academicView.layer.borderColor = #colorLiteral(red: 0.4078431373, green: 0.1215686275, blue: 0.5960784314, alpha: 1)
 //        academicView.layer.borderWidth = 2
-        mentalView.layer.cornerRadius = mentalView.frame.height / 15
+        mentalView.layer.cornerRadius = mentalView.frame.height / 20
         mentalView.layer.borderColor = #colorLiteral(red: 0.4078431373, green: 0.1215686275, blue: 0.5960784314, alpha: 1)
 //        mentalView.layer.borderWidth = 2
 

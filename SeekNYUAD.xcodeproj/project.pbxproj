@@ -21,6 +21,8 @@
 		45C172722735349600489A99 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C172712735349600489A99 /* CreateAccountViewController.swift */; };
 		45C1727427353E7800489A99 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C1727327353E7800489A99 /* HelpViewController.swift */; };
 		45C172762735418100489A99 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C172752735418100489A99 /* SettingsViewController.swift */; };
+		45C1727A2735504600489A99 /* AcademicHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C172792735504600489A99 /* AcademicHelpViewController.swift */; };
+		45C1727C273563EF00489A99 /* SecondStepAcademicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C1727B273563EF00489A99 /* SecondStepAcademicViewController.swift */; };
 		BF5B0698F538F644905E0C92 /* Pods_SeekNYUAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A12295B68FF58779B12B078 /* Pods_SeekNYUAD.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 		45C172712735349600489A99 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		45C1727327353E7800489A99 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		45C172752735418100489A99 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		45C172792735504600489A99 /* AcademicHelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AcademicHelpViewController.swift; path = "/Users/omarrayyann/Desktop/HackAD - Hackathon/SeekNYUAD/SeekNYUAD/AcademicHelpViewController.swift"; sourceTree = "<absolute>"; };
+		45C1727B273563EF00489A99 /* SecondStepAcademicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondStepAcademicViewController.swift; sourceTree = "<group>"; };
 		4A12295B68FF58779B12B078 /* Pods_SeekNYUAD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeekNYUAD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F82AE881B3AEFF295A4F87 /* Pods-SeekNYUAD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeekNYUAD.debug.xcconfig"; path = "Target Support Files/Pods-SeekNYUAD/Pods-SeekNYUAD.debug.xcconfig"; sourceTree = "<group>"; };
 		970219D9436293A196197050 /* Pods-SeekNYUAD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeekNYUAD.release.xcconfig"; path = "Target Support Files/Pods-SeekNYUAD/Pods-SeekNYUAD.release.xcconfig"; sourceTree = "<group>"; };
@@ -91,8 +95,10 @@
 				45526534273512A300698E98 /* SceneDelegate.swift */,
 				45526536273512A300698E98 /* ViewController.swift */,
 				45526538273512A300698E98 /* Main.storyboard */,
+				45C1727B273563EF00489A99 /* SecondStepAcademicViewController.swift */,
 				45C172752735418100489A99 /* SettingsViewController.swift */,
 				45C1727327353E7800489A99 /* HelpViewController.swift */,
+				45C172792735504600489A99 /* AcademicHelpViewController.swift */,
 				45C172712735349600489A99 /* CreateAccountViewController.swift */,
 				45C1726D273532A300489A99 /* LogInViewController.swift */,
 				45526549273519B200698E98 /* SeekViewController.swift */,
@@ -233,12 +239,14 @@
 				45526537273512A300698E98 /* ViewController.swift in Sources */,
 				45526533273512A300698E98 /* AppDelegate.swift in Sources */,
 				45C1726E273532A300489A99 /* LogInViewController.swift in Sources */,
+				45C1727C273563EF00489A99 /* SecondStepAcademicViewController.swift in Sources */,
 				45C172762735418100489A99 /* SettingsViewController.swift in Sources */,
 				45526535273512A300698E98 /* SceneDelegate.swift in Sources */,
 				45C1727427353E7800489A99 /* HelpViewController.swift in Sources */,
 				45C172722735349600489A99 /* CreateAccountViewController.swift in Sources */,
 				4552654A273519B200698E98 /* SeekViewController.swift in Sources */,
 				4552653D273512A300698E98 /* SeekNYUAD.xcdatamodeld in Sources */,
+				45C1727A2735504600489A99 /* AcademicHelpViewController.swift in Sources */,
 				45C17270273533CB00489A99 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -15,5 +15,5 @@ pod 'Firebase/Storage'
 pod 'Firebase/Messaging'
 pod 'Firebase/Auth'
 pod 'Firebase/Messaging'
-
+pod 'TextFieldEffects'
 end
