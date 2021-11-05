@@ -16,4 +16,7 @@ pod 'Firebase/Messaging'
 pod 'Firebase/Auth'
 pod 'Firebase/Messaging'
 pod 'TextFieldEffects'
+pod 'MaterialActivityIndicator'
+pod 'Kingfisher'
+
 end

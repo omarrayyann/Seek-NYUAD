@@ -10,9 +10,11 @@ import FirebaseAuth
 
 class SeekViewController: UIViewController {
 
+    @IBOutlet weak var helpView: UIButton!
     @IBOutlet weak var academicView: UIView!
     @IBOutlet weak var mentalView: UIView!
     
+    @IBOutlet weak var becomeHelperButton: UIView!
     override func viewDidAppear(_ animated: Bool) {
         if (Auth.auth().currentUser == nil){
             performSegue(withIdentifier: "toLogin", sender: self)
@@ -27,13 +29,11 @@ class SeekViewController: UIViewController {
                 [NSAttributedString.Key.foregroundColor: UIColor.black,
                  NSAttributedString.Key.font: UIFont(name: "Futura Medium", size: 21) ?? UIFont(name: "Futura-Medium", size: 21) ?? UIFont.systemFont(ofSize: 21, weight: .medium)]
 
-
-        academicView.layer.cornerRadius = academicView.frame.height / 20
-        academicView.layer.borderColor = #colorLiteral(red: 0.4078431373, green: 0.1215686275, blue: 0.5960784314, alpha: 1)
-//        academicView.layer.borderWidth = 2
         mentalView.layer.cornerRadius = mentalView.frame.height / 20
-        mentalView.layer.borderColor = #colorLiteral(red: 0.4078431373, green: 0.1215686275, blue: 0.5960784314, alpha: 1)
-//        mentalView.layer.borderWidth = 2
+        academicView.layer.cornerRadius = academicView.frame.height / 20
+
+        
+   
 
 
     }

@@ -7,14 +7,28 @@
 
 import UIKit
 import TextFieldEffects
+import FirebaseAuth
 
 class AcademicHelpViewController: UIViewController {
 
     @IBOutlet weak var subjectTitle: AkiraTextField!
     @IBOutlet weak var nextButton: UIButton!
     @IBOutlet weak var textView: UITextView!
+    @IBOutlet weak var greeting: UILabel!
+    
+    override func viewDidAppear(_ animated: Bool) {
+        print("here")
+        if Manager.shared.justPosted == true && (Int(Date().timeIntervalSince1970) - Manager.shared.whenDidTheyPost)<1000 {
+            Manager.shared.justPosted = false
+            self.dismiss(animated: true)
+        }
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        greeting.text = "Hello, \(Auth.auth().currentUser!.email!.dropLast(8))"
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
 
         subjectTitle.inputAccessoryView = toolBar()
         nextButton.layer.cornerRadius = nextButton.frame.height / 2
@@ -34,7 +48,7 @@ class AcademicHelpViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let destinationvc = segue.destination as! SecondStepAcademicViewController
-        destinationvc.subject = subjectTitle.text
+        destinationvc.subject = subjectTitle.text ?? ""
     }
     /*
     // MARK: - Navigation
