@@ -8,9 +8,9 @@ A platform where NYUAD students can both Help and Seek Help.
 
 <img src="https://firebasestorage.googleapis.com/v0/b/seek-nyuad.appspot.com/o/IMG_4641_iphone12black_portrait%20copy.png?alt=media&token=dea78be5-c18d-4dbe-8055-653f464bcb55" width="400" />
 
-Prioritizing mental health while performing well academically can be challenging for students, this app can help students achieve that. SEEK NYUAD aims to tackle both the **Academic** and **Health** stress of students on campus, especially in these times where in-person classes are scarce.
+Prioritizing mental health while performing well academically can be challenging for students, this app can help students achieve that. SEEK NYUAD aims to tackle both the **Academic** and **Health** stress of students on campus, especially in these times where in-person classes are limited.
 
-To begin with, students are prompted to Sign in using their Netids and provide at least one mean of contact. Next, useres are taken to the App's Home Page.
+To begin with, students are prompted to Sign in using their Netids and provide at least one mean of contact. Next, users are taken to the App's Home Page.
 
 <img src="https://firebasestorage.googleapis.com/v0/b/seek-nyuad.appspot.com/o/FIRSTROW.png?alt=media&token=ae1eb430-a18e-43a6-99b0-4966fc1efe14"/>
 
@@ -26,9 +26,9 @@ Students can find other students enquiries in the help section and can offer hel
 
 <img src="https://firebasestorage.googleapis.com/v0/b/seek-nyuad.appspot.com/o/THIRDROW.png?alt=media&token=bcccdc2c-b18e-4179-838a-da9c12540c96" />
 
-- **Mental Support**
+- **Mental Health Support**
 
-In order for mental support seeking to be somewhat anonymous, students are prompted to choose a listener rather than posting a public request. Students can seek mental support by choosing the second option in the seek page where they will get directed to a list of approveed listeners whom they can contact.
+In order for mental health support seeking to be somewhat anonymous, students are prompted to choose a listener rather than posting a public request. Students can seek mental health support by choosing the second option in the seek page where they will get directed to a list of approved listeners to contact.
 
 <img src="https://firebasestorage.googleapis.com/v0/b/seek-nyuad.appspot.com/o/FOURTHROW.png?alt=media&token=ab250a13-4d84-4b45-bd63-549fd0a9c6fa" />
 
