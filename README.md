@@ -1,8 +1,9 @@
-Note: Please email me at olr7742@nyu.edu so I can come give you the device with the app as apple doesn't allow testing apps on other devices before unless they're reviewed by apple first, a process that takes 24-48 hours
+*Note: Please email me at olr7742@nyu.edu so I can come give you the device with the app as apple doesn't allow testing apps on other devices before they review it in a process that takes 24-48 hours*
 
 <img src="https://firebasestorage.googleapis.com/v0/b/seek-nyuad.appspot.com/o/left.png?alt=media&token=66717a48-6c00-45af-b2f4-609da92b7c2a" />
 
 # SEEK-NYUAD
+
 A platform where NYUAD students can both Help and Seek Help
 
 <img src="https://firebasestorage.googleapis.com/v0/b/seek-nyuad.appspot.com/o/IMG_4641_iphone12black_portrait%20copy.png?alt=media&token=dea78be5-c18d-4dbe-8055-653f464bcb55" width="400" />
