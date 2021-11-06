@@ -19,6 +19,11 @@ class SeekViewController: UIViewController {
         if (Auth.auth().currentUser == nil){
             performSegue(withIdentifier: "toLogin", sender: self)
         }
+        
+        if Manager.shared.createdNow == true {
+            Manager.shared.createdNow = false
+            performSegue(withIdentifier: "toSocials", sender: self)
+        }
     }
     
     override func viewDidLoad() {

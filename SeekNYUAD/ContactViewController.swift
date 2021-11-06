@@ -8,6 +8,7 @@
 import UIKit
 import FirebaseFirestore
 import MaterialActivityIndicator
+import Kingfisher
 
 class ContactViewController: UIViewController {
 
@@ -19,8 +20,10 @@ class ContactViewController: UIViewController {
     
     @IBOutlet weak var errorLabel: UILabel!
 
+    @IBOutlet weak var activeIndicator: UIActivityIndicatorView!
     
-    @IBOutlet weak var activityIndicator: MaterialActivityIndicatorView!
+
+    
     let db = Firestore.firestore()
     
     var uid = ""
@@ -32,7 +35,7 @@ class ContactViewController: UIViewController {
     
     
     func checkSocials(){
-        print(uid)
+        activeIndicator.startAnimating()
         db.collection("Users").document(uid).getDocument { [self] snapshot, error in
             if let e = error {
                 print(e)
@@ -52,8 +55,8 @@ class ContactViewController: UIViewController {
                     }}
                 print(hasWhatsapp)
                 print(hasInstagram)
-                activityIndicator.isHidden = true
-                activityIndicator.stopAnimating()
+                activeIndicator.isHidden = true
+                activeIndicator.stopAnimating()
                 
                 if hasWhatsapp == false && hasInstagram == false {
                     wholesStack.isHidden = true
@@ -84,8 +87,6 @@ class ContactViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        activityIndicator.startAnimating()
-        activityIndicator.isHidden = false
         checkSocials()
         whatsappButton.layer.cornerRadius = whatsappButton.frame.height/10
         instagramButon.layer.cornerRadius = instagramButon.frame.height/10

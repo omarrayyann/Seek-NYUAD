@@ -33,6 +33,7 @@
 		45C1728C2735F5C500489A99 /* ListenersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C1728B2735F5C400489A99 /* ListenersCollectionViewCell.swift */; };
 		45C1728E2735F7C400489A99 /* MentalUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C1728D2735F7C400489A99 /* MentalUIViewController.swift */; };
 		45C172902735F86B00489A99 /* Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C1728F2735F86B00489A99 /* Listener.swift */; };
+		45C172922736273100489A99 /* BecomeAListenerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C172912736273000489A99 /* BecomeAListenerViewController.swift */; };
 		BF5B0698F538F644905E0C92 /* Pods_SeekNYUAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A12295B68FF58779B12B078 /* Pods_SeekNYUAD.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		45C1728B2735F5C400489A99 /* ListenersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenersCollectionViewCell.swift; sourceTree = "<group>"; };
 		45C1728D2735F7C400489A99 /* MentalUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalUIViewController.swift; sourceTree = "<group>"; };
 		45C1728F2735F86B00489A99 /* Listener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listener.swift; sourceTree = "<group>"; };
+		45C172912736273000489A99 /* BecomeAListenerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BecomeAListenerViewController.swift; sourceTree = "<group>"; };
 		4A12295B68FF58779B12B078 /* Pods_SeekNYUAD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeekNYUAD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F82AE881B3AEFF295A4F87 /* Pods-SeekNYUAD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeekNYUAD.debug.xcconfig"; path = "Target Support Files/Pods-SeekNYUAD/Pods-SeekNYUAD.debug.xcconfig"; sourceTree = "<group>"; };
 		970219D9436293A196197050 /* Pods-SeekNYUAD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeekNYUAD.release.xcconfig"; path = "Target Support Files/Pods-SeekNYUAD/Pods-SeekNYUAD.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				45526532273512A300698E98 /* AppDelegate.swift */,
 				45526536273512A300698E98 /* ViewController.swift */,
 				45526538273512A300698E98 /* Main.storyboard */,
+				45C172912736273000489A99 /* BecomeAListenerViewController.swift */,
 				45C1728D2735F7C400489A99 /* MentalUIViewController.swift */,
 				45C1728F2735F86B00489A99 /* Listener.swift */,
 				45C1728B2735F5C400489A99 /* ListenersCollectionViewCell.swift */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45526537273512A300698E98 /* ViewController.swift in Sources */,
+				45C172922736273100489A99 /* BecomeAListenerViewController.swift in Sources */,
 				45526533273512A300698E98 /* AppDelegate.swift in Sources */,
 				45C1726E273532A300489A99 /* LogInViewController.swift in Sources */,
 				45C1727C273563EF00489A99 /* SecondStepAcademicViewController.swift in Sources */,

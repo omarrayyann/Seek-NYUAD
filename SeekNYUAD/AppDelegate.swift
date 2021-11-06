@@ -20,6 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         IQKeyboardManager.shared.enableAutoToolbar = false
         FirebaseApp.configure()
         
+        Thread.sleep(forTimeInterval: 2.0)
+
     
         // Override point for customization after application launch.
         return true

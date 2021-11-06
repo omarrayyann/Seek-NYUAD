@@ -7,6 +7,7 @@
 
 import UIKit
 import FirebaseAuth
+import TextFieldEffects
 
 class LogInViewController: UIViewController {
 
@@ -19,7 +20,9 @@ class LogInViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        loginButton.layer.cornerRadius = loginButton.frame.height/10
+        loginButton.layer.cornerRadius = loginButton.frame.height/12
+        netidTextField.inputAccessoryView = toolBar()
+        passwordTextField.inputAccessoryView = toolBar()
 
     }
     

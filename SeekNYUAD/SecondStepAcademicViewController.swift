@@ -24,6 +24,7 @@ class SecondStepAcademicViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        textView.inputAccessoryView = toolBar()
         loadingView.layer.cornerRadius = loadingView.frame.height/20
         nextButton.layer.cornerRadius = nextButton.frame.height/2
         nextButton.layer.masksToBounds = true

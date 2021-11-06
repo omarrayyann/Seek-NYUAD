@@ -58,6 +58,12 @@ class HelpViewController: UIViewController, UICollectionViewDataSource, MyCustom
         if (Auth.auth().currentUser == nil){
             performSegue(withIdentifier: "toLogin", sender: self)
         }
+        
+        
+        if Manager.shared.createdNow == true {
+            Manager.shared.createdNow = false
+            performSegue(withIdentifier: "toSocials", sender: self)
+        }
     }
     
     @objc private func refreshFeed(_ sender: Any) {

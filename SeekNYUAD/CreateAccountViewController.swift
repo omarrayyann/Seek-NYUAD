@@ -21,6 +21,12 @@ class CreateAccountViewController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        fullNameTextField.inputAccessoryView = toolBar()
+        confirmPasswordTextField.inputAccessoryView = toolBar()
+        passwordTextField.inputAccessoryView = toolBar()
+        emailTextField.inputAccessoryView = toolBar()
+        netidTextField.inputAccessoryView = toolBar()
+
         buttonCreate.layer.cornerRadius = buttonCreate.frame.height / 10
         netidTextField.addTarget(self, action: #selector(self.textFieldDidChange), for: UIControl.Event.editingChanged)
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
@@ -65,6 +71,7 @@ class CreateAccountViewController: UIViewController, UITextFieldDelegate {
                     else{
                         self.insertNewUser(email: email, netid: netid, UID: success!.user.uid, name: name) { success in
                             if success {
+                                Manager.shared.createdNow = true
                                 self.dismiss(animated: true, completion: nil)
                             }
                             else{

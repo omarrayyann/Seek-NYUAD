@@ -42,6 +42,7 @@ class MentalUIViewController: UIViewController, UICollectionViewDataSource, MyCu
         cell.name.text = currentListener.fullName
         cell.netid.text = currentListener.netid
         cell.listenerInfo = currentListener
+        cell.classOF.text = "Class of \(currentListener.classOf)"
         cell.delegate = self
         return cell
     }
