@@ -1,3 +1,4 @@
+Note: Please email me at olr7742@nyu.edu so I can come give you the device with the app as apple doesn't allow testing apps on other devices before unless they're reviewed by apple first, a process that takes 24-48 hours
 
 <img src="https://firebasestorage.googleapis.com/v0/b/seek-nyuad.appspot.com/o/left.png?alt=media&token=66717a48-6c00-45af-b2f4-609da92b7c2a" />
 
