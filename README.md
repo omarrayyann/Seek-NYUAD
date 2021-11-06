@@ -10,7 +10,7 @@ A platform where NYUAD students can both Help and Seek Help.
 
 Prioritizing mental health while performing well academically can be challenging for students, this app can help students achieve that. SEEK NYUAD aims to tackle both the **Academic** and **Health** stress of students on campus, especially in these times where in-person classes are scarce.
 
-1- Students are prompted to Sign in using their Netids and provide at least one mean of contact. Next, useres are taken to the App's Home Page.
+To begin with, students are prompted to Sign in using their Netids and provide at least one mean of contact. Next, useres are taken to the App's Home Page.
 
 <img src="https://firebasestorage.googleapis.com/v0/b/seek-nyuad.appspot.com/o/FIRSTROW.png?alt=media&token=ae1eb430-a18e-43a6-99b0-4966fc1efe14"/>
 
