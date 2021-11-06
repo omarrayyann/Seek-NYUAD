@@ -32,6 +32,6 @@ In order for mental support seeking to be somewhat anonymous, students are promp
 
 <img src="https://firebasestorage.googleapis.com/v0/b/seek-nyuad.appspot.com/o/FOURTHROW.png?alt=media&token=ab250a13-4d84-4b45-bd63-549fd0a9c6fa" />
 
-Students who want to become listeners can apply through the app where they will get the testing and preperation requried through an email. Once completed and approved, the studenet will be added to the list of approved listeners
+Students who want to become listeners can apply through the app where they will get the testing and preperation requried through an email. Once completed and approved, the studenet will be added to the list of approved listeners.
 
 <img src="https://firebasestorage.googleapis.com/v0/b/seek-nyuad.appspot.com/o/LASTROW.png?alt=media&token=b50d2ace-7a36-4750-b0a6-994e2d4ea3e3" />
