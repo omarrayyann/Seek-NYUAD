@@ -2,7 +2,7 @@
 
 <img src="https://firebasestorage.googleapis.com/v0/b/seek-nyuad.appspot.com/o/left.png?alt=media&token=66717a48-6c00-45af-b2f4-609da92b7c2a" />
 
-# SEEK-NYUAD (HACKNYUAD 2021 Hackathon Submission)
+# SEEK-NYUAD
 
 A platform where NYUAD students can both Help and Seek Help. 
 
